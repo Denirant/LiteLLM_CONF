@@ -33,4 +33,8 @@ model_list:
     litellm_params: 
       model: deepinfra/mistralai/Mixtral-8x22B-Instruct-v0.1
       api_key: L0EZcLm70EsYMUV5CFnbnSj1DNnPhoJQ
+  - model_name: deep:Nemotron-nvidia
+    litellm_params: 
+      model: deepinfra/nvidia/Nemotron-4-340B-Instruct
+      api_key: L0EZcLm70EsYMUV5CFnbnSj1DNnPhoJQ
 router_settings: {}
