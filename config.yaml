@@ -1,22 +1,6 @@
 general_settings: {}
 litellm_settings: {}
 model_list: 
-  - model_name: re:llama-3-8b
-    litellm_params: 
-      model: replicate/meta/meta-llama-3-8b
-      api_key: r8_JEA1xXGxcXbIWtyx9kUheTPRznJyGHZ4X5YGz
-  - model_name: re:llama-3-70b
-    litellm_params: 
-      model: replicate/meta/meta-llama-3-70b-instruct
-      api_key: r8_JEA1xXGxcXbIWtyx9kUheTPRznJyGHZ4X5YGz
-  - model_name: re:mixtral
-    litellm_params: 
-      model: replicate/mistralai/mixtral-8x7b-instruct-v0.1
-      api_key: r8_JEA1xXGxcXbIWtyx9kUheTPRznJyGHZ4X5YGz
-  - model_name: re:llava-13b
-    litellm_params: 
-      model: replicate/yorickvp/llava-v1.6-vicuna-13b
-      api_key: r8_JEA1xXGxcXbIWtyx9kUheTPRznJyGHZ4X5YGz
   - model_name: groq:llama-3-8b
     litellm_params: 
       model: groq/llama3-8b-8192
@@ -29,4 +13,24 @@ model_list:
     litellm_params: 
       model: groq/mixtral-8x7b-32768
       api_key: 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
+  - model_name: deep:Qwen2-72B
+    litellm_params: 
+      model: deepinfra/Qwen/Qwen2-72B-Instruct
+      api_key: L0EZcLm70EsYMUV5CFnbnSj1DNnPhoJQ
+  - model_name: deep:llama-3-70b
+    litellm_params: 
+      model: deepinfra/meta-llama/Meta-Llama-3-70B-Instruct
+      api_key: L0EZcLm70EsYMUV5CFnbnSj1DNnPhoJQ
+  - model_name: deep:llama-3-8b
+    litellm_params: 
+      model: deepinfra/meta-llama/Meta-Llama-3-8B-Instruct
+      api_key: L0EZcLm70EsYMUV5CFnbnSj1DNnPhoJQ
+  - model_name: deep:WizardLM-2
+    litellm_params: 
+      model: deepinfra/microsoft/WizardLM-2-8x22B
+      api_key: L0EZcLm70EsYMUV5CFnbnSj1DNnPhoJQ
+  - model_name: deep:Mixtral-8x22B
+    litellm_params: 
+      model: deepinfra/mistralai/Mixtral-8x22B-Instruct-v0.1
+      api_key: L0EZcLm70EsYMUV5CFnbnSj1DNnPhoJQ
 router_settings: {}
